@@ -1,0 +1,9 @@
+<h2>Dashboard</h2>
+<form action="/predict" method="post">
+<input name="f1" placeholder="Followers"><br>
+<input name="f2" placeholder="Friends"><br>
+<input name="f3" placeholder="Statuses"><br>
+<button type="submit">Check</button>
+</form>
+<h3>{{ prediction_text }}</h3>
+<a href="/logout">Logout</a>
